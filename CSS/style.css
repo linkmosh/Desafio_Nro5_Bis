@@ -1,11 +1,30 @@
 /* Color del fondo del Index */
-.color-fondo {
+.fondo-historia {
     background-color: rgb(226, 204, 175);
 }
 
 /* Color del fondo de la pagina "Historia" */
 .fondo-oscuro {
     background-image: url("../Imagenes/fondo_pantalla.jpg");
+}
+
+/* Color del fondo de la pagina "Actores" */
+.fondo-actores {
+    background-image: url("../Imagenes/fondo_actores.jpg");
+    background-size: 100%;
+}
+
+/* Color del fondo de la pagina "musica" */
+.fondo-musica {
+    background-image: url("../Imagenes/fondo_musica.png");
+    background-size: 100%;
+}
+
+/* Color del fondo de la pagina "videojuego" */
+.fondo-videojuego {
+    /* background-image: url("../Imagenes/fondo_videojuego.jpg"); */
+    background-image: url(https://deathstrandingpc.505games.com/wp-content/uploads/2020/02/CDPR_DS_Title_FX_Master-2-DSLOGO_MATCHED-V5.gif);
+    background-size: 100%;
 }
 
 /* Seccion Oscura */
@@ -25,4 +44,13 @@ dd {
     color: white;
     font-style: italic;
     font-weight: bold;
+}
+
+.letra-musica{
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+}
+.color-yellow{
+    color: yellow;
 }
